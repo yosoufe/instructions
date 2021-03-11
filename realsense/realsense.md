@@ -89,7 +89,7 @@ sudo udevadm control --reload-rules && udevadm trigger
 helpful extra resource: https://www.jetsonhacks.com/2019/12/22/install-realsense-camera-in-5-minutes-jetson-nano/
 
 ## Cross Compile for Jetson Nano on Ubuntu Host
-If you want to cross compile for Jetson nano on host ubuntu machine, first follow the steps in [`cross_compile.md`](https://github.com/yosoufe/SelfStudyRobotics/blob/master/hardware/cross_compile.md) and then follow the previous 
+If you want to cross compile for Jetson nano on host ubuntu machine, first follow the steps in [`jetson_nano_cross_compile.md`](https://github.com/yosoufe/instructions/blob/main/jetsonNano/jetson_nano_cross_compile.md) and then follow the previous 
 section but on host and emulated ARM environment.
 
 After that we need to test our cross compiled binary directory.
