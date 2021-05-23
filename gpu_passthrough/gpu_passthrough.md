@@ -19,7 +19,7 @@ sudo subl /etc/initramfs-tools/modules
 ```
 and add the following
 ```
-vfio vfio_iommu_type1 vfio_virqfd vfio_pci ids={comma separated gues GPU IDs}
+vfio vfio_iommu_type1 vfio_virqfd vfio_pci ids={comma separated guest GPU IDs}
 ```
 
 ```bash
@@ -27,7 +27,7 @@ sudo subl /etc/modules
 ```
 and add the following
 ```
-vfio vfio_iommu_type1 vfio_pci ids={comma separated gues GPU IDs}
+vfio vfio_iommu_type1 vfio_pci ids={comma separated guest GPU IDs}
 ```
 
 
@@ -47,7 +47,7 @@ sudo subl /etc/default/grub
 ```
 add to the end of `GRUB_CMDLINE_LINUX_DEFAULT` like after splass to be something like
 ```
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash intel_iommu=on vfio-pci.ids={comma separated gues GPU IDs}"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash intel_iommu=on vfio-pci.ids={comma separated guest GPU IDs}"
 ```
 ```bash
 sudo update-grub
