@@ -52,3 +52,17 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash intel_iommu=on vfio-pci.ids={comma sepa
 ```bash
 sudo update-grub
 ```
+
+# Virt settings
+- Chipset: Q35
+- Firmware: UEFI x86_64: /usr/share/OVMF/OVMF_CODE.fd
+
+To share mouse and keyboard, add the followings to the xml file, with proper device ids
+```
+  <qemu:commandline>
+    <qemu:arg value="-object"/>
+    <qemu:arg value="input-linux,id=mouse1,evdev=/dev/input/by-id/usb-Logitech_Gaming_Mouse_G502_046D38593531-event-mouse"/>
+    <qemu:arg value="-object"/>
+    <qemu:arg value="input-linux,id=kbd1,evdev=/dev/input/by-id/usb-Kinesis_Advantage2_Keyboard_314159265359-if01-event-kbd,grab_all=on,repeat=on"/>
+  </qemu:commandline>
+```
