@@ -9,6 +9,7 @@ not accept any responsibilities.
 Resources:
 - https://mathiashueber.com/windows-virtual-machine-gpu-passthrough-ubuntu/#
 - https://passthroughpo.st/using-evdev-passthrough-seamless-vm-input/
+- https://www.majorgeeks.com/content/page/how_to_download_windows_10_enterprise_iso_with_media_creation_tool.html
 
 # Disable Nvidia GPU
 ```bash
@@ -70,5 +71,6 @@ To share mouse and keyboard, add the followings to the xml file, with proper dev
 
 ## Driver for the virtual machine before GPU Passthrough
 Guide: https://youtu.be/jLRmVNWOrgo
+
 Download `Windows guest tools - spice-guest-tools` from the following link and install it inside the virtual machine.
 - https://www.spice-space.org/download.html
