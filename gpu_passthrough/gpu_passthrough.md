@@ -1,4 +1,5 @@
-# GPU Passthrough
+# GPU Passthrough and virtual machine
+On Ubuntu
 
 # Disclaimer
 This is only for myself. A lot of step is missing here. And also do not follow this
@@ -66,3 +67,8 @@ To share mouse and keyboard, add the followings to the xml file, with proper dev
     <qemu:arg value="input-linux,id=kbd1,evdev=/dev/input/by-id/usb-Kinesis_Advantage2_Keyboard_314159265359-if01-event-kbd,grab_all=on,repeat=on"/>
   </qemu:commandline>
 ```
+
+## Driver for the virtual machine before GPU Passthrough
+Guide: https://youtu.be/jLRmVNWOrgo
+Download `Windows guest tools - spice-guest-tools` from the following link and install it inside the virtual machine.
+- https://www.spice-space.org/download.html
