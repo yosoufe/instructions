@@ -69,6 +69,8 @@ To share mouse and keyboard, add the followings to the xml file, with proper dev
   </qemu:commandline>
 ```
 
+When installing OS, just change the boot option to see only the CD/DVD ROM, just for the first time. The rest, change it back.
+
 ## Driver for the virtual machine before GPU Passthrough
 Guide: https://youtu.be/jLRmVNWOrgo
 
