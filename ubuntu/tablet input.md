@@ -1,6 +1,6 @@
 # Tablet Input
 
-I am using very old Samsung Galaxy 10.4 (2014) with [GfxTablet](https://github.com/rfc2822/GfxTablet)
+I am using very old Samsung Galaxy Note 10.4 (2014) with [GfxTablet](https://github.com/rfc2822/GfxTablet)
 to use the tablet as input for drawing during the meeting.
 
 Since my monitor is very large and I have multiple monitors, I need to map the input table to 
