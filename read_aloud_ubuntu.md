@@ -8,9 +8,9 @@ This is tested on Ubuntu 20.04
 sudo apt install -y sox play
 python -m pip install gtts
 
-touch read-selected-text.sh
-chmod +x read-selected-text.sh
-gedit read-selected-text.sh
+touch read-selected-text
+chmod +x read-selected-text
+gedit read-selected-text
 ```
 
 Copy the following script into the text editor, tune it as you wish and save it
