@@ -2,7 +2,7 @@
 
 With this tutorial, you can make your ubuntu machine to read any selected (or copied text into clipboard) out loud.
 
-## References:
+## References
 
 - https://dev.to/tylerlwsmith/read-selected-text-out-loud-on-ubuntu-linux-45lj
 - https://gtts.readthedocs.io/en/latest/cli.html
