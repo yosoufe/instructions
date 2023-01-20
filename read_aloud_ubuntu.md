@@ -2,6 +2,14 @@
 
 With this tutorial, you can make your ubuntu machine to read any selected (or copied text into clipboard) out loud.
 
+## References:
+
+- https://dev.to/tylerlwsmith/read-selected-text-out-loud-on-ubuntu-linux-45lj
+- https://gtts.readthedocs.io/en/latest/cli.html
+- https://unix.stackexchange.com/a/227237/301050
+
+# Setup
+
 This is tested on Ubuntu 20.04
 
 ```bash
@@ -34,9 +42,3 @@ fi
 The rest, you can follow section "Binding the script to a keyboard shorting" of
 [this instruction](https://dev.to/tylerlwsmith/read-selected-text-out-loud-on-ubuntu-linux-45lj)
 on how to bind a shortcut to run this script.
-
-## References:
-- https://dev.to/tylerlwsmith/read-selected-text-out-loud-on-ubuntu-linux-45lj
-- https://gtts.readthedocs.io/en/latest/cli.html
-- https://unix.stackexchange.com/a/227237/301050
-
