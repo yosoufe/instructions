@@ -1,6 +1,6 @@
 # Read everything loud on Ubuntu
 
-With this tutorial, you can make your ubuntu machine to read any selected (or copied text into clipboard) out loud.
+With this tutorial, you can make your ubuntu machine to read any selected text (or copied text into clipboard) out loud.
 
 ## References
 
