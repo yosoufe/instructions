@@ -55,6 +55,8 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash intel_iommu=on vfio-pci.ids={comma sepa
 sudo update-grub
 ```
 
+(just for myself) disable CSM in the bios
+
 # Virt settings
 - Chipset: Q35
 - Firmware: UEFI x86_64: /usr/share/OVMF/OVMF_CODE.fd
