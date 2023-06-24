@@ -5,9 +5,9 @@
 * Find the UUID of the SSD in the "Disks" app. Or use "sudo blkid" in terminal
 * Create `/etc/udev/rules.d/80-local.rules` file and append the following line to it
   ```
-  ACTION=="add", KERNEL=="sd?", ENV{ID_FS_UUID}=="0AFA50DC287B221D", SYMLINK+="ssd_storage"
+  ACTION=="add", KERNEL=="sd?", ENV{ID_FS_UUID}=="<UUID>", SYMLINK+="<some name to come up in /dev>"
   ```
-  This line adds a symbolic `/dev/ssd_storage` to be used by docker to be able to access it inside a docker container
+  This line adds a symbolic `/dev/some name` to be used by docker to be able to access it inside a docker container
   using `devices` in the docker-compose file.
 * run `sudo udevadm control --reload-rules && sudo udevadm trigger` to update the rules
 * Now modify the `/etc/fstab` file to fix the mount point of the SSD on startup. Add the following line to the file
