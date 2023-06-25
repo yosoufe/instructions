@@ -2,6 +2,7 @@
 
 ## Upgrade SSD storage
 * First make a backup of the files in the original SSD.
+* Formant the new SSD in NTFS format. [required for next steps, ext4 won't work.]
 * Find the UUID of the SSD in the "Disks" app. Or use "sudo blkid" in terminal
 * Create `/etc/udev/rules.d/80-local.rules` file and append the following line to it
   ```
