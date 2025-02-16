@@ -13,8 +13,10 @@ With this tutorial, you can make your ubuntu machine to read any selected text (
 This is tested on Ubuntu 20.04
 
 ```bash
-sudo apt install -y sox play
-python -m pip install gtts
+sudo apt install -y sox xclip xsel python3-gtts libsox-fmt-mp3
+
+# you might need this too
+# sudo apt install -y play
 
 touch read-selected-text
 chmod +x read-selected-text
